@@ -1,0 +1,17 @@
+{
+    "development" : {
+        "database" : "fetchData",
+        "username" : "root",
+        "password" : "987430d",
+        "dialectInfo" : {
+            "host" : "localhost",
+            "dialect" : "mysql"
+        },
+        "pool" : {
+            "max" : 3,
+            "min" : 0,
+            "acquire" : 20000,
+            "idle" : 10000
+        }
+    } 
+}
